@@ -1,0 +1,48 @@
+body {
+    background-color: #000000;
+}
+
+legend {
+    margin: 1em auto;  
+    padding: 0.1em 0.3em;
+    border: 0.1em solid;
+    border-radius: 0.2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    background-color: #FFFF99;
+    
+}
+
+fieldset {
+    border-radius: 0.5em;
+    background-color: #FFFF99;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    
+}
+
+input {
+    border-radius: 0.2em;
+}
+
+.postIt {
+    margin: 0.2em 0.3em;  
+    border: 0.1em solid;
+    border-radius: 0.2em;
+    background-color: #f8fbcd;
+}    
+
+.delete {
+    float: right;
+}
+
+#taskToDo {
+    margin-bottom: 2em;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #a6a663;
+}
